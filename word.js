@@ -1,13 +1,17 @@
 var letter = require('./letter.js');
+var index = require("./index.js");
+var inquirer = require("inquirer");
+
+var choosenword;
+var number = 1;
+//Math.floor(Math.random() * 5)
+var underScore = ["_", "_", "_", "_" , "_ _ _ _","_ _ _ _ _ _", "_ _ _ _ _", "_ _ _"];
 var commonWords = [
-    "some", "her", "would", "make", "like", "him", "into", "time", "has",
-    "look", "two", "more", "write", "go", "see", "number", "no", "way",
-    "could", "people", "my", "than", "first", "water", "been", "call",
-    "who", "oil", "its", "now", "find", "long", "down", "day", "did", "get",
-    "come", "made", "may", "part"
+    "cool", "game", "pillow", "other", "uwu"
   ];
-  var inquirer = require("inquirer");
-var getRandomWord = function(array) {
-    return array[Math.floor(Math.random() * array.length)];
+  function getWord() {
+    var choosenword= commonWords[1];
+    if(number = 1) {
+      console.log(underScore[0], underScore[1], underScore[2], underScore[3]);
+    }
   }
-  

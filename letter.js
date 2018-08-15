@@ -25,4 +25,3 @@ function onStart() {
           }
     });
 }
-onStart();
